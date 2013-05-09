@@ -30,7 +30,7 @@ public class Gravy extends DroidGap {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		EmbeddedAgent.configureAgent(getApplicationContext());
-		super.loadUrl("file:///android_asset/www/index1.html");
+		super.loadUrl("file:///android_asset/www/login.html");
 	}
 
 	@Override
