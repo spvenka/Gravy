@@ -1,4 +1,4 @@
-package com.app47.pgplugin;
+package com.mobileapp.pgplugin;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,7 +14,7 @@ import org.json.JSONObject;
 import com.app47.embeddedagent.EmbeddedAgent;
 import com.app47.embeddedagent.EmbeddedAgentLogger;
 
-public class App47PGPlugin extends CordovaPlugin {
+public class MobileAppPGPlugin extends CordovaPlugin {
 	
 	private static final String TYPE = "type";
 	private static final String MSG = "msg";

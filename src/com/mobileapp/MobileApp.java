@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.app47.gravy;
+package com.mobileapp;
 
 import org.apache.cordova.DroidGap;
 
@@ -25,7 +25,7 @@ import android.os.Bundle;
 
 import com.app47.embeddedagent.EmbeddedAgent;
 
-public class Gravy extends DroidGap {
+public class MobileApp extends DroidGap {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
